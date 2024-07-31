@@ -1,13 +1,21 @@
 import GrowthLogo from "../../assets/GrowthLogo.svg";
 import "./Header.css";
-// import LoginPage from "../LoginPage/LoginPage";
+import LoginPage from "../LoginPage/LoginPage";
 const Header = () => {
   return (
-    <header>
+    <section className="header">
       <a href="" className="image">
         <img src={GrowthLogo} alt="GrowthLogo" />
       </a>
-    </header>
+      <div className="login-register">
+        <a href={<LoginPage />} className="login">
+          Login
+        </a>
+        <a href="" className="register">
+          Register
+        </a>
+      </div>
+    </section>
   );
 };
 

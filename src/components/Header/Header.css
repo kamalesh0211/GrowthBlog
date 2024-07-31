@@ -1,5 +1,14 @@
-.image img {
-   width:20%;
-   height: 20%;
-
+.header {
+  
+  display: flex;
+  justify-content: space-between;
+}
+.header a img {
+  width: 60%;
+  height: 60%;
+}
+.login-register {
+  padding: 1rem 1.9rem;
+  display: flex;
+  gap: 30px;
 }

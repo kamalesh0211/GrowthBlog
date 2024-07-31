@@ -1,14 +1,16 @@
-import Header from "./components/Header/Header";
+import LandingPage from "./components/LandingPage/LandingPage";
 import "./App.css";
-// import LoginPage from "./components/LoginPage/LoginPage";
-// import { Route, Router } from "react-router";
+
 
 function App() {
+
   return (
     <>
-      <Header />
+      <LandingPage />
     </>
   );
 }
 
 export default App;
+import { RouterProvider } from "react-router-dom";
+
