@@ -1,5 +1,5 @@
 .header {
-  
+ text-decoration: none;
   display: flex;
   justify-content: space-between;
 }
@@ -11,4 +11,8 @@
   padding: 1rem 1.9rem;
   display: flex;
   gap: 30px;
+  color: black;
+}
+.login-register * a{
+  border: 1px solid darkblue;
 }

@@ -5,6 +5,7 @@ const LandingPage = () => {
     <section className="landingPage">
       <Header />
       <Post />
+      <Post />
     </section>
   );
 };

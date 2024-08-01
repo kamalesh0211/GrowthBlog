@@ -2,9 +2,9 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(8, 8, 8, 0.87);
+  list-style: none;
+  text-decoration: none;
+  
 
   background-color: #cd8df8;
 
@@ -14,15 +14,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-html{
+html {
   background: url(/GrowthLogo.svg) no-repeat;
-  background-size:cover;
-  background-position:center -10rem;
-  background-blend-mode:difference;
+  background-size: cover;
+  background-position: center -10rem;
+  background-blend-mode: difference;
   max-height: fit-content;
-  
+  color: rgba(8, 8, 8, 0.87);
 }
 
 @media screen {
-  
 }
